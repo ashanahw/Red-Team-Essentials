@@ -1,5 +1,7 @@
 Starting with Red Teaming
 
+Red Team Planning and though process -
+1. https://github.com/magoo/redteam-plan
 
 Setting up your AD lab - 
 1. https://1337red.wordpress.com/building-and-attacking-an-active-directory-lab-with-powershell/
