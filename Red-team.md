@@ -6,7 +6,8 @@ Red Team Planning and though process -
 Setting up your AD lab - 
 1. https://1337red.wordpress.com/building-and-attacking-an-active-directory-lab-with-powershell/
 2. https://www.youtube.com/watch?v=xftEuVQ7kY0
-3. 
+3. https://sethsec.blogspot.com/2017/05/pentest-home-lab-0x1-building-your-ad.html
+4. https://www.fatrodzianko.com/2019/08/05/creating-an-active-directory-lab-in-aws/
 
 AD and kerberos Introduction -
 1. https://adsecurity.org/?p=227 - Kerberos 
