@@ -27,6 +27,11 @@ Blogs -
 12. https://www.blackhillsinfosec.com
 13. https://attack.mitre.org/
 
+C2 Frameworks -
+1. https://github.com/cobbr/Covenant 
+2. https://github.com/nettitude/PoshC2
+3. https://github.com/byt3bl33d3r/SILENTTRINITY
+4. https://www.cobaltstrike.com/ 
 
 
 C2 infra Setup -
