@@ -1,6 +1,6 @@
 Starting with Red Teaming
 
-Red Team Planning and though process -
+Red Team Planning and thought process -
 1. https://github.com/magoo/redteam-plan
 
 Setting up your AD lab - 
