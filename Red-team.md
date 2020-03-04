@@ -69,6 +69,8 @@ Workshop/Random Contents -
 10. https://resources.infosecinstitute.com/nac-hacking-bypassing-network-access-control/#gref
 11. https://purplesec.us/physical-penetration-testing/ - Physical Pentest Intro
 
+Red Team Tools -
+1. https://0xsp.com/offensive/red-teaming-toolkit-collection
 
 Ocean of resources -
 1. https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
