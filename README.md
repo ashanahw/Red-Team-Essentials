@@ -5,6 +5,16 @@
 
 
 <p>Set-MpPreference -DisableRealtimeMonitoring $true<p>
+ 
+ 
+ 
+#Services and startname 
+
+
+ Get-WmiObject win32_service | format-Table name, startname, startmode
+
+
+ 
 
 #Fore-Change PAssword - generic All 
 
